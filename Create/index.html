@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../images/icon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../styles-header-footer.css" />
+
+    <title>Quiz</title>
+  </head>
+  <body>
+    <header>
+      <a href="../index.html">
+        <img src="../images/logo.png" alt="Logo" class="logo" />
+      </a>
+      <a href="index.html">
+        <h2>It's QnA Time</h2>
+      </a>
+
+      <button class="create-button">
+        <a href="index.html">Create New</a>
+      </button>
+    </header>
+
+    <div class="container">
+      <div id="titleContainer">
+        <label>Title </label>
+        <input
+          type="text"
+          id="title"
+          class="titleInputbox"
+          placeholder="Enter title of quiz"
+        />
+      </div>
+      <div id="timeContainer">
+        <label>Duration </label>
+        <input type="number" id="duration" class="timeBox" placeholder="mins" />
+      </div>
+      <div class="quiz-questions"></div>
+
+      <button type="submit" id="submit-button">Submit</button>
+    </div>
+    <footer>
+      <p>&copy; Vishal Jagdale</p>
+    </footer>
+    <button id="addQuestion">+</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

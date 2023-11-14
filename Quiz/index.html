@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../images/icon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../styles-header-footer.css" />
+
+    <title>Quiz</title>
+  </head>
+  <body>
+    <header>
+      <a href="../index.html">
+        <img src="../images/logo.png" alt="Logo" class="logo" />
+      </a>
+      <a href="index.html">
+        <h2 id="title"></h2>
+      </a>
+      <p id="time"><span id="timer">00:00</span> min</p>
+    </header>
+
+    <div class="container">
+      <div id="score">
+        <h2 id="show-score"></h2>
+      </div>
+
+      <div class="quiz-questions"></div>
+
+      <button id="submit-button">Submit</button>
+      <button onclick="window.location.href='../index.html';" id="home">
+        Home
+      </button>
+    </div>
+    <footer>
+      <p>&copy; Vishal Jagdale</p>
+    </footer>
+    <div id="overlay" class="overlay"></div>
+    <div id="confirmDialog" class="modal">
+      <div class="modal-content">
+        <p>Do you want to submit?</p>
+        <button class="confirm" onclick="hideDialog(true)">Confirm</button>
+        <button id="Cancel" onclick="hideDialog(false)">Cancel</button>
+      </div>
+    </div>
+
+    <div id="submitting" class="modal">
+      <div class="modal-content">
+        <p>Time's Up - Auto Submited!</p>
+        <button class="confirm" onclick="hideDialog(true)">Ok</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
