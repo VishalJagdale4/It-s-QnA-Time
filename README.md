@@ -42,4 +42,6 @@ Upon submitting the quiz or reaching the time limit, the quiz will be automatica
 
 Its QnA Time is built using a combination of HTML, CSS, and JavaScript. HTML provides the foundation for the app's structure, while CSS handles the visual styling and ensures a smooth and attractive user interface. JavaScript takes the app to the next level by adding dynamic behaviors and interactions, making the quiz-taking experience more engaging and interactive.
 
+Demo: [It's QnA Time](https://vishaljagdale4.github.io/It-s-QnA-Time)
+
 Its QnA Time is a simple yet effective quiz app that combines ease of use with engaging features. Whether you're a student, teacher, or simply someone looking for a fun way to test your knowledge, Its QnA Time is a simple and the perfect tool for you.
